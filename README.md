@@ -19,6 +19,9 @@ let localStorage=yun_db.localStorage;
 new localStorage(yun_db_key).set('key',{object})
 new localStorage(yun_db_key).get('key')
 
+```
+
+```
 
 2:直接返回单个存储对象
 
