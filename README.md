@@ -36,5 +36,7 @@ new yun_LStorage(yun_db_key).get('key')
 ## build说明
 
 > build:esm - 编译出符合 esm 规范的可执行文件，供 Vue、React 等采用 esmodule 规范进行模块化打包的项目使用
+
 > build:umd - 编译出符合 umd 规范的可执行文件，供 jQuery、Vue、NodeJS 等项目使用
+
 > build:min - 编译出符合 umd 规范的压缩的可执行文件
