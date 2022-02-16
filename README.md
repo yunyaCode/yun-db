@@ -10,25 +10,25 @@
 
 ```
 
-1:从yun_db上获取单个存储对象 {yun_db:{cookies,indexedDB,localStorage,sessionStorage,webSql,vuex,redux}}
+1:从yun_db上获取单个存储对象 {yun_db:{cookies,indexedDB,localStorage,sessionStorage,webSql}}
 
 import { yun_db } from 'yun_db'
 
 let localStorage=yun_db.localStorage;
 
-new localStorage(yun_db_key).set('key',{object})
-new localStorage(yun_db_key).get('key')
+ localStorage.set('key',{object},{opinion})
+ localStorage.get('key')
 
 ```
 
 ```
 
-2:直接返回单个存储对象 {yun_Cookies,yun_IDB,yun_LStorage,yun_SStorage,yun_WebSql,yun_Redux,yun_Vuex}
+2:直接返回单个存储对象 {yun_Cookies,yun_IDB,yun_LStorage,yun_SStorage,yun_WebSql}
 
 import { yun_LStorage } from 'yun_db'
 
-new yun_LStorage(yun_db_key).set('key',{object})
-new yun_LStorage(yun_db_key).get('key')
+ yun_LStorage.set('key',{object},{opinion})
+ yun_LStorage.get('key')
 
 
 ```
