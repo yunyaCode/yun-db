@@ -16,8 +16,8 @@ import { yun_db } from 'yun_db'
 
 let localStorage=yun_db.localStorage;
 
- localStorage.set('key',{object},{opinion})
- localStorage.get('key')
+localStorage.set('key',{object},{opinion})
+localStorage.get('key')
 
 ```
 
@@ -27,8 +27,8 @@ let localStorage=yun_db.localStorage;
 
 import { yun_LStorage } from 'yun_db'
 
- yun_LStorage.set('key',{object},{opinion})
- yun_LStorage.get('key')
+yun_LStorage.set('key',{object},{opinion})
+yun_LStorage.get('key')
 
 
 ```
