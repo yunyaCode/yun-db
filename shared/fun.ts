@@ -1,0 +1,1 @@
+export let getId = (key: string) => `yun_db_${key}`

@@ -30,13 +30,15 @@
   },
   "keywords": [
     "db",
+    "yun-db",
+    "tsconfig",
     "cookies",
     "indexedDB",
     "localStorage",
-    "redux",
     "sessionStorage",
-    "vuex",
-    "webSql"
+    "webSql",
+    "redux",
+    "vuex"
   ],
   "author": "yunya",
   "license": "MIT",
